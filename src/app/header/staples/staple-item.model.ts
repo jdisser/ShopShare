@@ -1,12 +1,12 @@
 import { Ingredient } from "../ingredients/ingredient.model"
 
 export class Staple{
-  ingredient: Ingredient;
-  firstOrder: Date;
-  lastOrder: Date;
-  reorder: Date;
-  buyQuantity: number;
-  totalQuantity: number;
+  public ingredient: Ingredient;
+  public firstOrder: Date;
+  public lastOrder: Date;
+  public reorder: Date;
+  public buyQuantity: number;
+  public totalQuantity: number;
 
   constructor(ingredient: Ingredient, firstOrder: Date, lastOrder: Date, reorder: Date, buyQuantity: number, totalQuantity: number){
     this.ingredient=ingredient;

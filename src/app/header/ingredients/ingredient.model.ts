@@ -1,7 +1,7 @@
 export class Ingredient {
-  name: string;
-  unit: string;
-  source: string;
+  public name: string;
+  public unit: string;
+  public source: string;
 
   constructor(name: string, unit: string, source: string){
     this.name = name;

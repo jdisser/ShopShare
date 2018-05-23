@@ -1,6 +1,6 @@
 export class RecipeDetail {
-  step: number;
-  instruction: string;
+  public step: number;
+  public instruction: string;
 
   constructor(step: number, instruction: string){
     this.step = step;

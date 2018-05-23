@@ -2,11 +2,11 @@ import {RecipeDetail} from "./recipe/recipe.detail.model"
 import {RecipeItem} from "./recipe/recipe.item.model"
 
 export class Recipe {
-  name: string;
-  description: string;
-  image: string;
-  details: RecipeDetail[];
-  items: RecipeItem[];
+  public name: string;
+  public description: string;
+  public image: string;
+  public details: RecipeDetail[];
+  public items: RecipeItem[];
 
   constructor(name: string, desc: string, url: string, details: RecipeDetail[], items: RecipeItem[]){
     this.name = name;

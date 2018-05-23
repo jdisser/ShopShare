@@ -1,8 +1,8 @@
 import {Ingredient} from "../../ingredients/ingredient.model"
 
 export class RecipeItem {
-  ingredient: Ingredient;
-  amount: number;
+  public ingredient: Ingredient;
+  public amount: number;
 
   constructor(ingredient: Ingredient, amount: number){
     this.ingredient = ingredient;
