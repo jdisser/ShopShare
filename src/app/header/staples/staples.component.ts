@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Staple } from "./staple.model"
 
 @Component({
   selector: 'app-staples',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./staples.component.css']
 })
 export class StaplesComponent implements OnInit {
+  staples: Staple[] = [];
 
   constructor() { }
 
