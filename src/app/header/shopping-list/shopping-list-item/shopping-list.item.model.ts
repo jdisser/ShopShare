@@ -1,4 +1,4 @@
-import {Ingredient} from "../ingredients/ingredient.model"
+import {Ingredient} from "../../ingredients/ingredient.model"
 
 export class ShoppingListItem {
   public ingredient: Ingredient;

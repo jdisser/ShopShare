@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Staple } from "./staple-item.model"
+import { Staple } from "./staple-item/staple-item.model"
 
 @Component({
   selector: 'app-staples',

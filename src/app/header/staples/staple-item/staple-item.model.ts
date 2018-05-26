@@ -1,4 +1,4 @@
-import { Ingredient } from "../ingredients/ingredient.model"
+import { Ingredient } from "../../ingredients/ingredient.model"
 // for testing
 export class Staple{
   public ingredient: Ingredient;

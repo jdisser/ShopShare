@@ -1,5 +1,5 @@
-import {RecipeDetail} from "./recipe.detail.model"
-import {RecipeItem} from "./recipe.item.model"
+import {RecipeDetail} from "./recipe-detail/recipe.detail.model"
+import {RecipeItem} from "./recipe-item/recipe.item.model"
 
 export class Recipe {
 
